@@ -54,16 +54,16 @@ devDependencies:
     version: 2.1.1
   '@vitejs/plugin-vue':
     specifier: ^3.0.0
-    version: 3.0.1(vite@3.2.5)(vue@3.2.37)
+    version: 3.0.1(vite@3.2.10)(vue@3.2.37)
   unocss:
     specifier: ^0.44.7
-    version: 0.44.7(vite@3.2.5)
+    version: 0.44.7(vite@3.2.10)
   vite:
-    specifier: ^3.1.0
-    version: 3.2.5
+    specifier: ^3.2.10
+    version: 3.2.10
   vite-plugin-pwa:
     specifier: ^0.13.3
-    version: 0.13.3(vite@3.2.5)(workbox-build@6.5.4)(workbox-window@6.5.4)
+    version: 0.13.3(vite@3.2.10)(workbox-build@6.5.4)(workbox-window@6.5.4)
 
 packages:
 
@@ -1648,7 +1648,7 @@ packages:
       '@unocss/core': 0.44.7
     dev: true
 
-  /@unocss/vite@0.44.7(vite@3.2.5):
+  /@unocss/vite@0.44.7(vite@3.2.10):
     resolution: {integrity: sha512-RjOB+Yv2bg/p5NOzwXDYap0fl7m+1VmIfej8Afceisy0mDL1NniGISiA0pQjOhUewPdSaBDpRXxlpoDGnYaPjw==}
     peerDependencies:
       vite: ^2.9.0 || ^3.0.0-0
@@ -1661,17 +1661,17 @@ packages:
       '@unocss/scope': 0.44.7
       '@unocss/transformer-directives': 0.44.7
       magic-string: 0.26.2
-      vite: 3.2.5
+      vite: 3.2.10
     dev: true
 
-  /@vitejs/plugin-vue@3.0.1(vite@3.2.5)(vue@3.2.37):
+  /@vitejs/plugin-vue@3.0.1(vite@3.2.10)(vue@3.2.37):
     resolution: {integrity: sha512-Ll9JgxG7ONIz/XZv3dssfoMUDu9qAnlJ+km+pBA0teYSXzwPCIzS/e1bmwNYl5dcQGs677D21amgfYAnzMl17A==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       vite: ^3.0.0
       vue: ^3.2.25
     dependencies:
-      vite: 3.2.5
+      vite: 3.2.10
       vue: 3.2.37
     dev: true
 
@@ -1700,7 +1700,7 @@ packages:
       '@vue/shared': 3.2.37
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.14
+      postcss: 8.4.21
       source-map: 0.6.1
 
   /@vue/compiler-ssr@3.2.37:
@@ -3198,14 +3198,6 @@ packages:
       crc-32: 0.3.0
     dev: false
 
-  /postcss@8.4.14:
-    resolution: {integrity: sha512-E398TUmfAYFPBSdzgeieK2Y1+1cpdxJx8yXbK/m57nRhKSmk1GB2tO4lbLBtlkfPQTDKfe4Xqv1ASWPpayPEig==}
-    engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: 3.3.4
-      picocolors: 1.0.0
-      source-map-js: 1.0.2
-
   /postcss@8.4.21:
     resolution: {integrity: sha512-tP7u/Sn/dVxK2NnruI4H9BG+x+Wxz6oeZ1cJ8P6G/PZY0IKk4k/63TDsQf2kQq3+qoJeLm2kIBUNlZe3zgb4Zg==}
     engines: {node: ^10 || ^12 || >=14}
@@ -3213,7 +3205,6 @@ packages:
       nanoid: 3.3.4
       picocolors: 1.0.0
       source-map-js: 1.0.2
-    dev: true
 
   /pretty-bytes@5.6.0:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
@@ -3660,7 +3651,7 @@ packages:
     engines: {node: '>= 10.0.0'}
     dev: true
 
-  /unocss@0.44.7(vite@3.2.5):
+  /unocss@0.44.7(vite@3.2.10):
     resolution: {integrity: sha512-4XQZAZ7F5gFi30Dn4e7PdxYc2BVTBtrkXA5QzHgmBy/RqNoM5kEuQwsooEVEMl6Cp3Q+vHuQCueVffOBHUl9rQ==}
     engines: {node: '>=14'}
     peerDependencies:
@@ -3683,7 +3674,7 @@ packages:
       '@unocss/transformer-compile-class': 0.44.7
       '@unocss/transformer-directives': 0.44.7
       '@unocss/transformer-variant-group': 0.44.7
-      '@unocss/vite': 0.44.7(vite@3.2.5)
+      '@unocss/vite': 0.44.7(vite@3.2.10)
     transitivePeerDependencies:
       - supports-color
       - vite
@@ -3715,7 +3706,7 @@ packages:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
     dev: false
 
-  /vite-plugin-pwa@0.13.3(vite@3.2.5)(workbox-build@6.5.4)(workbox-window@6.5.4):
+  /vite-plugin-pwa@0.13.3(vite@3.2.10)(workbox-build@6.5.4)(workbox-window@6.5.4):
     resolution: {integrity: sha512-cjWXpZ7slAY14OKz7M8XdgTIi9wjf6OD6NkhiMAc+ogxnbUrecUwLdRtfGPCPsN2ftut5gaN1jTghb11p6IQAA==}
     peerDependencies:
       vite: ^3.1.0
@@ -3727,15 +3718,15 @@ packages:
       fast-glob: 3.2.11
       pretty-bytes: 6.0.0
       rollup: 2.79.1
-      vite: 3.2.5
+      vite: 3.2.10
       workbox-build: 6.5.4
       workbox-window: 6.5.4
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite@3.2.5:
-    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
+  /vite@3.2.10:
+    resolution: {integrity: sha512-Dx3olBo/ODNiMVk/cA5Yft9Ws+snLOXrhLtrI3F4XLt4syz2Yg8fayZMWScPKoz12v5BUv7VEmQHnsfpY80fYw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
